@@ -1,17 +1,22 @@
 body{
   font-family: "Montserrat";
-  background-color:#DDE4E8 ;
+  background-color: black;
+}
+
+.mainBody{
+  background-image: url("images/background.jpg");
+  background-size:100% 100%;
+
 }
 
 .title{
   width: 100%;
-  background-color: #070707;
+  background-image: url("images/back.jpg");
+  background-size:100% 100%;
   color: white;
   position: fixed;
-  z-index: 10;
-  border:0.1px;;
-  border-style:none none solid;
-  border-color: #202224;
+  z-index: 13;
+
 
 }
 
@@ -79,7 +84,7 @@ left: 0;
 
 .jumbo{
   height: 550px;
-  background-color:#070707;
+  /* background-color:#070707; */
   padding-top: 150px;
   padding-bottom: 100px;
 }
@@ -93,8 +98,9 @@ left: 0;
 
 .welcomeText{
   text-align: center;
-  color: #4C6D2E;
+  color: #72CE0F;
   font-family: 'Indie Flower', cursive;
+  font-size: 20px;
 }
 
 
@@ -121,12 +127,10 @@ margin-left: 4px;
 
 .row{
   margin: 0 40px;
-  margin-left: 125px;
+margin-left: 50px;
 }
 
-
 .card{
-
    display: flex;
    margin-right: 8px;
    margin-bottom: 20px;
